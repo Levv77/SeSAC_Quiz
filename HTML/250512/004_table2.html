@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>커피 음료 주문 테이블 작성</title>
+  <style>
+    table {
+      border: 1px solid black;
+      border-spacing: 0;
+      text-align: center;
+      width: 50%;
+    }
+    th, tr, td {
+      border: 1px solid black;
+    }
+    img {
+      width: 150px;
+      height: 150px;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tr>
+      <th style="width: 15%;">구분</th>
+      <th style="width: 30%;">음료</th>
+      <th style="width: 20%;">가격</th>
+      <th>이미지</th>
+    </tr>
+    <tr>
+      <td rowspan="2">쓴음료</td>
+      <td>아메리카노</td>
+      <td>2500원</td>
+      <td><img src="/아메리카노.png" alt="아메리카노"></td>
+    </tr>
+    <tr>
+      <td>에스프레소</td>
+      <td>3500원</td>
+      <td><img src="/에스프레소.png" alt="아메리카노"></td>
+    </tr>
+    <tr>
+      <td rowspan="2">단음료</td>
+      <td>할메가커피</td>
+      <td rowspan="2">5200원</td>
+      <td><img src="/할메가커피.png" alt="아메리카노"></td>
+    </tr>
+    <tr>
+      <td>카라멜마기아또</td>
+      <td><img src="/카라멜마기아또.png" alt="아메리카노"></td>
+    </tr>
+  </table>
+</body>
+</html>
